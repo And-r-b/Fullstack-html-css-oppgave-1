@@ -1,0 +1,37 @@
+body, html {
+    background-color:darksalmon;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:green;
+    text-align: center;
+}
+header{
+    max-width: 800px;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+.oppskrift {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+
+ul, ol {
+    max-width: 80%;
+    margin: auto;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+#myHeader2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
