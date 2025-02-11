@@ -1,14 +1,18 @@
 body, html {
-    background-color:darksalmon;
+    background-color:#dda15e;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color:green;
     text-align: center;
 }
 header{
-    max-width: 800px;
+    max-width: 840px;
     height: auto;
     display: block;
     margin: auto;
+    border-radius: 10px;
+}
+
+#myHeader2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .oppskrift {
@@ -18,11 +22,16 @@ header{
     max-width: 800px;
     margin: auto;
     padding: 20px;
+    background-color:  white;
+    color:firebrick;
+    border-radius: 10px;
 }
 
 ul, ol {
-    max-width: 80%;
+    max-width: 85%;
     margin: auto;
+    line-height:30px ;
+    font-size: large;
 }
 
 img {
@@ -30,8 +39,11 @@ img {
     height: auto;
     display: block;
     margin: auto;
+    border-radius: 15px;
 }
 
-#myHeader2 {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+hr {
+    height: 4px;
+    background-color: black;
+    border: none;
 }
