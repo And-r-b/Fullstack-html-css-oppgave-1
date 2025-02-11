@@ -1,8 +1,11 @@
+/* Styling for hele nettsida */
 body, html {
     background-color:#dda15e;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
 }
+
+/* Styling til header */
 header{
     max-width: 840px;
     height: auto;
@@ -11,10 +14,12 @@ header{
     border-radius: 10px;
 }
 
+/* ID Styling */
 #myHeader2 {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+/* Hoved Style til hvit bakgrunn + tekst farge + alignments  */
 .oppskrift {
     display: flex;
     flex-direction: column;
@@ -27,13 +32,15 @@ header{
     border-radius: 10px;
 }
 
-ul, ol {
+/* List Styling */
+ol {
     max-width: 85%;
     margin: auto;
     line-height:30px ;
     font-size: large;
 }
 
+/* Image Styling */
 img {
     max-width: 100%;
     height: auto;
@@ -42,6 +49,7 @@ img {
     border-radius: 15px;
 }
 
+/* Hr Styling */
 hr {
     height: 4px;
     background-color: black;
